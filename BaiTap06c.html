@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BaiTap06c</title>
+</head>
+<style>
+    .wrapper{
+        border: 2px solid rgb(56, 138, 190);
+        width: 200px;
+        height: 500px;
+        background-color: white;
+        margin: 0px auto;
+    }
+
+    .name, .phone, .email, .color, .date{
+        margin-left: 15px;
+    }
+
+    input[type="submit"]{
+        top: 450px;
+        margin-left: 70px;
+        position: absolute;
+    }
+
+</style>
+<body>
+    <div class="wrapper">
+        <div class="name">
+            <label for="name">Name:</label> <br>
+            <input type="text">
+        </div>
+        
+        <br>
+
+        <div class="phone">
+            <label for="tele">Telephone Number:</label> <br>
+            <input type="text">
+        </div>
+
+        <br>
+
+        <div class="email">
+            <label for="email">Email</label> <br>
+            <input type="text">
+        </div>
+
+        <br>
+
+        <div class="color">
+            <label for="color">Favorite Color:</label> <br>
+            <input type="color" id="color" name="color" value="#000fff">
+        </div>  
+
+        <br>
+
+        <div class="date">
+            <label for="date">Date of Birth:</label> <br>
+            <input type="date">
+        </div>
+
+        <div >
+           <input type="submit" value="Submit">
+        </div>
+
+    </div>
+
+</body>
+</html>
